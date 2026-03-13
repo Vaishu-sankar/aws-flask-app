@@ -2,7 +2,7 @@
 from flask import Flask
 import boto3
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route("/")
 def home():
